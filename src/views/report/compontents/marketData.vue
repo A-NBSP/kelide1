@@ -1,0 +1,13 @@
+<template>
+  <div class="marketData">销售信息</div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
