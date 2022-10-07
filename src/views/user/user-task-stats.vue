@@ -1,12 +1,12 @@
 <template>
   <div>
-    对账统计
+    人效统计
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HrsaasIndex',
+  name: 'UserTaskStats',
 
   data() {
     return {

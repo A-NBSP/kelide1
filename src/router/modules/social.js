@@ -1,16 +1,14 @@
-
 import Layout from '@/layout'
 export default {
-  path: '/social',
-  name: 'social',
+  path: '/report',
   component: Layout,
-  children: [{
-    path: '',
-    component: () => import('@/views/social'),
-
-    meta: {
-      title: '对账统计', icon: 'el-icon-data-line'
+  children: [
+    {
+      path: '/report/index',
+      name: 'report',
+      component: () => import('@/views/report'),
+      meta: { title: '对账统计', icon: 'el-icon-data-line' }
     }
-  }]
+  ]
 }
 

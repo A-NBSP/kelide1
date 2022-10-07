@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'HrsaasIndex',
+  name: 'UserWork',
 
   data() {
     return {
